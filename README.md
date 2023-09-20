@@ -8,3 +8,7 @@ Ryan Reilly |
 Jacob Lebediker |
 Jinwu Ahn |
 Kyle Adjei |
+## Programming Languages 
+HTML
+CSS
+JavaScript
