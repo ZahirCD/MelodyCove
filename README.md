@@ -1,3 +1,3 @@
 # MelodyCove
 
-A modern, cloud based, audio file storage site. Designed for both listening and storing audio files
+A modern day, cloud based, audio file storage site. Designed for both listening and storing audio files
