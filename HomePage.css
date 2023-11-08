@@ -6,6 +6,23 @@ body {
     overflow: hidden;
 }
 
+#container {
+    max-height: 100vh; 
+    overflow: auto; 
+}
+
+#homepage-welcome-text{
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 40px;
+    font-weight: bold;
+    color: #333;
+}
+
+
 #header {
     text-align: center;
     padding: 50px;
@@ -14,23 +31,51 @@ body {
     color: #333;
 }
 
-#dropdown-options {
-    position: absolute;
-    left: 10px;
-    top: 50%;
-    transform: translateY(-50%);
-    background-color: #ff9900; /* Set the background color to your preference */
-    color: #fff; /* Set the text color to your preference */
+
+#footer {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
     padding: 10px;
-    border-radius: 5px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    
 }
+
+#footer text {
+    display: inline;
+    margin:  20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#left-options-box{
+    text-align: center;
+    background-color: #333; /* I like this color option for the background for right now */ 
+    color: #fff;
+    padding: 10px;
+    position: absolute;
+    top: 35%;
+    height: 15%;
+    width: 5%;
+}
+
+#left-options-box text{
+    display: flex;
+    margin:  20px;
+    font-size: 18px;
+    font-weight: bold;
+    
+}
+
 
 #login-create {
     position: absolute;
     top: 10px;
     right: 10px;
-    background-color: #ff9900; /* Set the background color to your preference */
-    color: #fff; /* Set the text color to your preference */
+    background-color: #333; 
+    color: #fff; 
     padding: 10px;
     border-radius: 5px;
 }
@@ -59,40 +104,18 @@ body {
     animation: float 3s ease-in-out infinite;
 }
 
-.note1 { left: 10%; bottom: 70%; animation-delay: 0s; }
-.note2 { left: 20%; bottom: 67%; animation-delay: 0.5s; }
-.note3 { left: 30%; bottom: 64%; animation-delay: 1s; }
-.note4 { left: 40%; bottom: 61%; animation-delay: 1.5s; }
-.note5 { left: 50%; bottom: 60%; animation-delay: 2s; }
-.note6 { left: 60%; bottom: 61%; animation-delay: 2.5s; }
-.note7 { left: 70%; bottom: 64%; animation-delay: 3s; }
-.note8 { left: 80%; bottom: 67%; animation-delay: 3.5s; }
-.note9 { left: 90%; bottom: 70%; animation-delay: 4s; }
+.note1 { left: 35%; top: 11%; animation-delay: 1.5s; }
+.note2 { left: 65%; top: 11%; animation-delay: 2.5s; }
+
+
 
 /* Music Notes */
 
 /* Half Note Style */
 .half-note {
-    width: 40px;
-    height: 20px;
-    border-top-left-radius: 50% 100%;
-    border-top-right-radius: 50% 100%;
-}
-
-/* Eighth Note Style */
-.eighth-note {
     width: 20px;
     height: 20px;
     border-top-left-radius: 50% 100%;
     border-top-right-radius: 50% 100%;
     margin: 0 5px;
-}
-
-/* Sixteenth Note Style */
-.sixteenth-note {
-    width: 20px;
-    height: 20px;
-    border-top-left-radius: 50% 100%;
-    border-top-right-radius: 50% 100%;
-    margin: 0 2px;
 }
