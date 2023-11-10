@@ -8,26 +8,31 @@
     <link rel="stylesheet" type="text/css" href="/Stylesheets/HomePage.css">
 </head>
 <body>
-    <div id="container">
-     <!-- Left side of screen with the trending and artist options -->   
-    <div id="left-options-box">
-        <text>Trending</text>
-        <text>Artists</text>
-    </div>
-    <div id="login-create">Create User/Login</div>
-    <div id="header">MelodyCove</div>
-    <div id="music-notes">       
-        <!-- Notes -->
-        <div class="music-note half-note note1"></div>
-        <div class="music-note half-note note2"></div> 
-    </div>
-    <div id="homepage-welcome-text">Welcome to MelodyCove! We are a modern day, cloud based, audio file storage site designed for both listening and storing audio files.
-        This is currently a Work In Progress Build </div>
-        <div id="footer">
-            <text>Contact Us</text>
-            <text>Follow Us</text>
+    <div class="header">
+        <div class="brand">
+          <a href="/Pages/HomePage.html">
+            <img src="logo.png" class="logo"/>
+            </a>
+            <h1>MelodyCove</h1>
         </div>
-    </div>    
-    <script src="/Scripts/HomePage.js"></script>
-</body>
+      <nav>
+        <div class="nav-links">
+          <li class="login-btn"><a href="/Pages/LoginPage.html">Login | Create an Account </a></li>
+        </div>
+        <div class="trending-artists-box">
+            <li><a href="/Pages/TrendingPage.html">TRENDING</a></li>
+            <li><a href="/Pages/ArtistPage.html">ARTISTS</a></li>
+          </div>
+      </nav>
+      </div>
+      <div class="middle-text">
+        <p>Welcome to MelodyCove A modern day, cloud based, audio file storage site. Designed for both listening and storing audio files</p>
+    </div> 
+    <div class="footer">
+        <div class="footer-links">
+            <a href="/Pages/ContactPage.html">Contact Us</a>
+            <a href="/Pages/FollowPage.html">Follow Us</a>
+        </div>
+    </div>
+  </body>
 </html>
