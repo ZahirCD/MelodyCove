@@ -13,6 +13,22 @@ app.get('', (req, res) => {
     res.sendFile(__dirname + '/Pages/HomePage.html'); //here is the example
 })
 
+app.get('', (req, res) => {
+    res.sendFile(__dirname + '/Pages/TrendingPage.html'); 
+})
+
+app.get('', (req, res) => {
+    res.sendFile(__dirname + '/Pages/ContactPage.html'); 
+})
+
+app.get('', (req, res) => {
+    res.sendFile(__dirname + '/Pages/LoginPage.html');
+})
+
+app.get('', (req, res) => {
+    res.sendFile(__dirname + '/Pages/CreateUserPage.html'); 
+})
+
 app.listen(port, hostname, () => {
     console.log(`Server running at http://${hostname}:${port}/`);
 })
