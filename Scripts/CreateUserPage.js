@@ -1,16 +1,16 @@
-const loginForm = document.getElementById("login-form");
-const loginButton = document.getElementById("login-form-submit");
-const loginErrorMsg = document.getElementById("login-error-msg");
+const createuserForm = document.getElementById("create-user-form");
+const createuserButton = document.getElementById("create-user-form-submit");
+const createuserErrorMsg = document.getElementById("create-user-error-msg");
 
-loginButton.addEventListener("click", (e) => {
+createuserButton.addEventListener("click", (e) => {
     e.preventDefault();
-    const email = loginForm.email.value;
-    const password = loginForm.password.value;
+    const email = createuserForm.email.value;
+    const password = createuserForm.password.value;
 
     if (email === "Admin@gmail.com" && password === "Admin") {
-        alert("You have successfully logged in.");
+        alert("You have successfully created an account.");
         location.reload();
     } else {
-        loginErrorMsg.style.opacity = 1;
+        createuserErrorMsg.style.opacity = 1;
     }
 })
