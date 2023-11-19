@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MelodyCove</title>
-    <link rel="stylesheet" type="text/css" href="/Stylesheets/CreateUser.css">
+    <link rel="stylesheet" type="text/css" href="/Stylesheets/CreateUserPage.css">
 </head>
 <body>
     <div class="header">
@@ -23,6 +23,19 @@
       </div>
       <div class="middle-text">
         <p>Welcome to MelodyCove's Create a User Page! Lets make your account!</p>
+    </div> 
+    <div id="main-holder">
+      <h1 id="create-user-header">Create an Account</h1>
+      
+      <div id="create-user-error-msg-holder">
+        <p id="create-user-error-msg">Invalid username <span id="error-msg-second-line">and/or password</span></p>
+      </div>
+      
+      <form id="create-user-form">
+        <input type="text" name="email" id="email-field" class="create-user-form-field" placeholder="Email Address">
+        <input type="password" name="password" id="password-field" class="create-user-form-field" placeholder="Password">
+        <input type="submit" value="Create Account" id="create-user-form-submit">
+      </form>
     </div> 
     <div class="footer">
         <div class="footer-links">

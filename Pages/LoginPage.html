@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MelodyCove</title>
     <link rel="stylesheet" type="text/css" href="/Stylesheets/LoginPage.css">
+    <script defer src="login-page.js"></script>
 </head>
 <body>
     <div class="header">
@@ -22,7 +23,20 @@
       </nav>
       </div>
       <div class="middle-text">
-        <p>Welcome to MelodyCove's Login Page! Lets get you signed in!</p>
+        <p>Welcome to MelodyCove's Login Page! Lets get you logged in!</p>
+    </div>
+    <div id="main-holder">
+      <h1 id="login-header">Login</h1>
+      
+      <div id="login-error-msg-holder">
+        <p id="login-error-msg">Invalid username <span id="error-msg-second-line">and/or password</span></p>
+      </div>
+      
+      <form id="login-form">
+        <input type="text" name="email" id="email-field" class="login-form-field" placeholder="Email Address">
+        <input type="password" name="password" id="password-field" class="login-form-field" placeholder="Password">
+        <input type="submit" value="Login" id="login-form-submit">
+      </form>
     </div> 
     <div class="footer">
         <div class="footer-links">
