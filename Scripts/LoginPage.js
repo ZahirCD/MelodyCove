@@ -6,12 +6,18 @@ loginButton.addEventListener("click", (e) => {
     e.preventDefault();
     const email = loginForm.email.value;
     const password = loginForm.password.value;
-    console.log("test");
-    if (email === "Admin@gmail.com" && password === "Admin") {
+    let password_verify = localStorage.getItem(email);
+    if (password_verify == password) {
         location.reload();
         location.href = "/Pages/UserProfilePage.html"
-
     } else {
         loginErrorMsg.style.opacity = 1;
+
     }
+    // if (email === "Admin@gmail.com" && password === "Admin") {
+
+
+    // } else {
+    //     loginErrorMsg.style.opacity = 1;
+    // }
 })
