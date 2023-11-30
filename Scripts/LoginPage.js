@@ -4,7 +4,6 @@ const loginErrorMsg = document.getElementById("login-error-msg");
 
 loginButton.addEventListener("click", (e) => {
     e.preventDefault();
-
     const email = loginForm.email.value;
     const password = loginForm.password.value;
     if (email.trim().length === 0 || password.trim().length === 0) {
