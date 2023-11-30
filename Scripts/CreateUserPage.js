@@ -19,7 +19,7 @@ createuserButton.addEventListener("click", (e) => {
         return;
     }
     if (email === "Admin@gmail.com" && password === "Admin") {
-        location.reload();
+        location.reload()//l
 
         location.href = "/Pages/UserProfilePage.html"
 
