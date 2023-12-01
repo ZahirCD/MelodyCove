@@ -109,15 +109,15 @@ body{
 .custom-btn {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #3498db;
-    color: #fff;
+    background-color: #ffffff;
+    color: #000000;
     border: none;
     border-radius: 4px;
     cursor: pointer;
 }
 
 .custom-btn:hover {
-    background-color: #2980b9;
+    background-color: rgb(120, 120, 128);
 }
   
   
