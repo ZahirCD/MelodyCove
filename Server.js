@@ -29,6 +29,22 @@ app.get('', (req, res) => {
     res.sendFile(__dirname + '/Pages/CreateUserPage.html'); 
 })
 
+app.get('', (req, res) => {
+    res.sendFile(__dirname + '/Pages/UserProfilePage.html'); 
+})
+
+app.get('', (req, res) => {
+    res.sendFile(__dirname + '/Pages/ArtistPage.html'); 
+})
+
+app.get('', (req, res) => {
+    res.sendFile(__dirname + '/Pages/FollowPage.html'); 
+})
+
+app.get('', (req, res) => {
+    res.sendFile(__dirname + '/Pages/FileUploadPage.html'); 
+})
+
 app.listen(port, hostname, () => {
     console.log(`Server running at http://${hostname}:${port}/`);
 })
