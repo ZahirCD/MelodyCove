@@ -18,28 +18,68 @@ body {
     transform: translate(-50%, -50%);
     font-size: 40px;
     font-weight: bold;
-    color: #333;
+    color: #000000;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(133, 133, 146);
+    padding: 30px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+}
+
+.brand h1 {
+    font-size: 36px;
+    margin: 0 10px;
+    color: #000000;
+    text-align: center;
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+    padding-bottom: 1px;
 }
 
 
-#header {
-    text-align: center;
-    padding: 20px;
-    font-size: 80px;
+ .footer {
+     background-color: rgb(133, 133, 146);
+     padding: 20px;
+     text-align: center;
+     position: fixed;
+     bottom: 0;
+     width: 100%;
+ }
+
+ .footer-links a {
+     text-decoration: none;
+     color: #000000;
+     margin: 0 15px;
+     font-weight: 700;
+ }
+
+ .footer-links a:hover {
+     text-decoration: underline;
+     cursor: pointer;
+ }
+
+#footer text {
+    display: inline;
+    margin: 20px;
+    font-size: 18px;
     font-weight: bold;
-    color: #333;
-}
-
-
-#footer {
-    text-align: center;
-    background-color: #333;
-    color: #fff;
-    padding: 10px;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    
+    cursor: pointer;
 }
 
 #footer text {
@@ -52,7 +92,7 @@ body {
 
 #right-options-box{
     text-align: left;
-    background-color: #333;
+    background-color: rgb(133, 133, 146);
     color: #fff;
     padding: 25px;
     position: absolute;
@@ -72,7 +112,7 @@ body {
 
 #biography {
     text-align: left;
-    background-color: #333;
+    background-color: rgb(133, 133, 146);
     /* I like this color option for the background for right now */
     color: #fff;
     padding: 25px;
@@ -94,7 +134,7 @@ body {
 
 #audio-list {
     text-align: left;
-    background-color: #333;
+    background-color: rgb(133, 133, 146);
     color: #fff;
     padding: 25px;
     position: absolute;
@@ -124,7 +164,7 @@ body {
 
 #footer-function-bar {
     text-align: center;
-    background-color: #333;
+    background-color:rgb(133, 133, 146);
     color: #fff;
     padding: 25px;
     position: absolute;
