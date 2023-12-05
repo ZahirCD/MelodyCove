@@ -113,7 +113,6 @@ nav {
 #biography {
     text-align: left;
     background-color: rgb(133, 133, 146);
-    /* I like this color option for the background for right now */
     color: #fff;
     padding: 25px;
     position: absolute;
@@ -131,6 +130,19 @@ nav {
     cursor: pointer;
 }
 
+.hyperlinks {
+    display: flex;
+        margin: 10px;
+        font-size: 18px;
+        font-weight: bold;
+        cursor: pointer;
+        color: #fff;
+        text-decoration: none;
+}
+
+.number-removed {
+    list-style-type: none;
+}
 
 #audio-list {
     text-align: left;
