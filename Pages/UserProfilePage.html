@@ -1,20 +1,64 @@
 <!DOCTYPE html>
 <html>
-
 <head>
+     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>User Profile Page</title>
     <link rel="stylesheet" type="text/css" href="/Stylesheets/UserProfilePage.css">
-    <script defer src="/Scripts/UserProfile.js"></script>
-
 </head>
-<div class="trending-artists-box">
-    <li><a href="/Pages/FileUploadPage.html">File Upload</a></li>
-    <li><a href="/Pages/BecomeArtistPage.html">Become an Artist</a></li>
-    <li><a href="/Pages/ManageSubscriptions.html">Manage Subscriptions</a></li>
-  </div>
-
 <body>
-    <h1 id="current-user">Admin</h1>
-</body>
+    <div id="header">MelodyCove</div>
+   <div id="container">  
+    <div id="right-options-box">
+        <text>Become An Artist</text>
+        <text>Upload A File</text>
+        <text>Subscribe</text>
+    </div>
+    </div>
 
+
+    <div id="container">
+        <div id="biography">
+            <text>Welcome to your profile page.</text>
+            <text>Here you can see the files you’ve uploaded, manage your subscription and more!</text>
+        </div>
+    </div>
+
+    <div id="container">
+        <div id="audio-list">
+        </div>
+    </div>
+
+
+    <div id="container">
+        <div id="playlist">
+        <ol class="playlist">
+            <li>
+            <span class="audio-title">Evangeline - Tailspin (ft. mt saint michael & Callum Sheehan)</span>
+           <audio id="first" controls>
+            <source src="Music\Evangeline - Tailspin (ft. mt saint michael & Callum Sheehan).mp3" type="audio/mpeg">
+           </audio>
+           </li>
+
+            <li>
+                <span class="audio-title">hidden contact - soobin</span>
+                <audio id="second" controls>
+                    <source src="Music\hidden contact - soobin.mp3" type="audio/mpeg">
+                </audio>
+            </li>
+
+        </ol>
+        </div>
+    </div>
+
+    <div id="container">
+        <div id="footer-function-bar">
+        </div>
+    </div>
+
+    <div><button id="playButton">Play</button></div>
+
+
+        <script src="/Scripts/UserProfilePage.js"></script>
+</body>
 </html>
